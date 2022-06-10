@@ -1,0 +1,4 @@
+[console_scripts]
+listener = test1.move_motor:main
+talker = test1.hardware_interface:main
+

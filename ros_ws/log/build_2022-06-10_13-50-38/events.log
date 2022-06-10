@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000984] (test1) JobQueued: {'identifier': 'test1', 'dependencies': OrderedDict()}
+[0.001818] (test1) JobStarted: {'identifier': 'test1'}
+[0.099249] (-) TimerEvent: {}
+[0.200184] (-) TimerEvent: {}
+[0.301169] (-) TimerEvent: {}
+[0.402010] (-) TimerEvent: {}
+[0.502787] (-) TimerEvent: {}
+[0.603499] (-) TimerEvent: {}
+[0.704271] (-) TimerEvent: {}
+[0.805060] (-) TimerEvent: {}
+[0.905746] (-) TimerEvent: {}
+[1.006448] (-) TimerEvent: {}
+[1.107194] (-) TimerEvent: {}
+[1.207911] (-) TimerEvent: {}
+[1.308765] (-) TimerEvent: {}
+[1.409676] (-) TimerEvent: {}
+[1.510404] (-) TimerEvent: {}
+[1.611291] (-) TimerEvent: {}
+[1.712059] (-) TimerEvent: {}
+[1.812895] (-) TimerEvent: {}
+[1.913647] (-) TimerEvent: {}
+[2.014319] (-) TimerEvent: {}
+[2.115044] (-) TimerEvent: {}
+[2.215742] (-) TimerEvent: {}
+[2.316464] (-) TimerEvent: {}
+[2.417195] (-) TimerEvent: {}
+[2.517958] (-) TimerEvent: {}
+[2.618942] (-) TimerEvent: {}
+[2.719802] (-) TimerEvent: {}
+[2.820576] (-) TimerEvent: {}
+[2.921586] (-) TimerEvent: {}
+[3.023030] (-) TimerEvent: {}
+[3.063484] (test1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/test1', 'build', '--build-base', '/home/rahel/Documents/my_robot/ros_ws/build/test1/build', 'install', '--prefix', '/home/rahel/Documents/my_robot/ros_ws/install/test1', '--record', '/home/rahel/Documents/my_robot/ros_ws/build/test1/install.log', '--single-version-externally-managed'], 'cwd': '/home/rahel/Documents/my_robot/ros_ws/src/test1', 'env': {'USER': 'rahel', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rahel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1270', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=698bed3196003b19b37f055c62a380f1', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rahel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rahel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rahel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rahel-desktop:@/tmp/.ICE-unix/1270,unix/rahel-desktop:/tmp/.ICE-unix/1270', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5e08d4d2_89eb_457d_8fd7_2a2c0db890d5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UGWLN1', 'GNOME_TERMINAL_SERVICE': ':1.170', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rahel/Documents/my_robot/ros_ws/build/test1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=698bed3196003b19b37f055c62a380f1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.123189] (-) TimerEvent: {}
+[3.223936] (-) TimerEvent: {}
+[3.324845] (-) TimerEvent: {}
+[3.425634] (-) TimerEvent: {}
+[3.526363] (-) TimerEvent: {}
+[3.627107] (-) TimerEvent: {}
+[3.727872] (-) TimerEvent: {}
+[3.828525] (-) TimerEvent: {}
+[3.929238] (-) TimerEvent: {}
+[4.030083] (-) TimerEvent: {}
+[4.131052] (-) TimerEvent: {}
+[4.221017] (test1) StdoutLine: {'line': b'running egg_info\n'}
+[4.223227] (test1) StdoutLine: {'line': b'creating ../../build/test1/test1.egg-info\n'}
+[4.224111] (test1) StdoutLine: {'line': b'writing ../../build/test1/test1.egg-info/PKG-INFO\n'}
+[4.225294] (test1) StdoutLine: {'line': b'writing dependency_links to ../../build/test1/test1.egg-info/dependency_links.txt\n'}
+[4.225904] (test1) StdoutLine: {'line': b'writing entry points to ../../build/test1/test1.egg-info/entry_points.txt\n'}
+[4.226514] (test1) StdoutLine: {'line': b'writing requirements to ../../build/test1/test1.egg-info/requires.txt\n'}
+[4.227046] (test1) StdoutLine: {'line': b'writing top-level names to ../../build/test1/test1.egg-info/top_level.txt\n'}
+[4.227867] (test1) StdoutLine: {'line': b"writing manifest file '../../build/test1/test1.egg-info/SOURCES.txt'\n"}
+[4.231101] (-) TimerEvent: {}
+[4.235908] (test1) StdoutLine: {'line': b"reading manifest file '../../build/test1/test1.egg-info/SOURCES.txt'\n"}
+[4.239065] (test1) StdoutLine: {'line': b"writing manifest file '../../build/test1/test1.egg-info/SOURCES.txt'\n"}
+[4.239833] (test1) StdoutLine: {'line': b'running build\n'}
+[4.240324] (test1) StdoutLine: {'line': b'running build_py\n'}
+[4.240854] (test1) StdoutLine: {'line': b'creating /home/rahel/Documents/my_robot/ros_ws/build/test1/build\n'}
+[4.241511] (test1) StdoutLine: {'line': b'creating /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib\n'}
+[4.242040] (test1) StdoutLine: {'line': b'creating /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1\n'}
+[4.242625] (test1) StdoutLine: {'line': b'copying test1/hardware_interface.py -> /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1\n'}
+[4.243076] (test1) StdoutLine: {'line': b'copying test1/move_motor.py -> /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1\n'}
+[4.243597] (test1) StdoutLine: {'line': b'copying test1/__init__.py -> /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1\n'}
+[4.244477] (test1) StdoutLine: {'line': b'running install\n'}
+[4.246455] (test1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.247114] (test1) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.247859] (test1) StdoutLine: {'line': b'running install_lib\n'}
+[4.251160] (test1) StdoutLine: {'line': b'creating /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1\n'}
+[4.251841] (test1) StdoutLine: {'line': b'copying /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1/hardware_interface.py -> /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1\n'}
+[4.252649] (test1) StdoutLine: {'line': b'copying /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1/move_motor.py -> /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1\n'}
+[4.253455] (test1) StdoutLine: {'line': b'copying /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1/__init__.py -> /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1\n'}
+[4.255999] (test1) StdoutLine: {'line': b'byte-compiling /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1/hardware_interface.py to hardware_interface.cpython-310.pyc\n'}
+[4.256821] (test1) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (hardware_interface.py, line 13)\n'}
+[4.257477] (test1) StdoutLine: {'line': b'byte-compiling /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1/move_motor.py to move_motor.cpython-310.pyc\n'}
+[4.259681] (test1) StdoutLine: {'line': b'byte-compiling /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1/__init__.py to __init__.cpython-310.pyc\n'}
+[4.260979] (test1) StdoutLine: {'line': b'running install_data\n'}
+[4.263895] (test1) StdoutLine: {'line': b'creating /home/rahel/Documents/my_robot/ros_ws/install/test1/share/ament_index\n'}
+[4.264857] (test1) StdoutLine: {'line': b'creating /home/rahel/Documents/my_robot/ros_ws/install/test1/share/ament_index/resource_index\n'}
+[4.265476] (test1) StdoutLine: {'line': b'creating /home/rahel/Documents/my_robot/ros_ws/install/test1/share/ament_index/resource_index/packages\n'}
+[4.266036] (test1) StdoutLine: {'line': b'copying resource/test1 -> /home/rahel/Documents/my_robot/ros_ws/install/test1/share/ament_index/resource_index/packages\n'}
+[4.266575] (test1) StdoutLine: {'line': b'copying package.xml -> /home/rahel/Documents/my_robot/ros_ws/install/test1/share/test1\n'}
+[4.267006] (test1) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.276221] (test1) StdoutLine: {'line': b'Copying ../../build/test1/test1.egg-info to /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1-0.0.0-py3.10.egg-info\n'}
+[4.283467] (test1) StdoutLine: {'line': b'running install_scripts\n'}
+[4.331476] (-) TimerEvent: {}
+[4.376392] (test1) StdoutLine: {'line': b'Installing listener script to /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/test1\n'}
+[4.378263] (test1) StdoutLine: {'line': b'Installing talker script to /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/test1\n'}
+[4.382047] (test1) StdoutLine: {'line': b"writing list of installed files to '/home/rahel/Documents/my_robot/ros_ws/build/test1/install.log'\n"}
+[4.431870] (-) TimerEvent: {}
+[4.535086] (-) TimerEvent: {}
+[4.555680] (test1) CommandEnded: {'returncode': 0}
+[4.636493] (-) TimerEvent: {}
+[4.738515] (-) TimerEvent: {}
+[4.834958] (test1) JobEnded: {'identifier': 'test1', 'rc': 0}
+[4.848786] (-) TimerEvent: {}
+[4.850025] (-) EventReactorShutdown: {}

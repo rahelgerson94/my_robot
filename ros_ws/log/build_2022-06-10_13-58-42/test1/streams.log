@@ -1,0 +1,28 @@
+[2.890s] Invoking command in '/home/rahel/Documents/my_robot/ros_ws/src/test1': PYTHONPATH=/home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test1 build --build-base /home/rahel/Documents/my_robot/ros_ws/build/test1/build install --prefix /home/rahel/Documents/my_robot/ros_ws/install/test1 --record /home/rahel/Documents/my_robot/ros_ws/build/test1/install.log --single-version-externally-managed
+[4.025s] running egg_info
+[4.029s] writing ../../build/test1/test1.egg-info/PKG-INFO
+[4.031s] writing dependency_links to ../../build/test1/test1.egg-info/dependency_links.txt
+[4.032s] writing entry points to ../../build/test1/test1.egg-info/entry_points.txt
+[4.037s] writing requirements to ../../build/test1/test1.egg-info/requires.txt
+[4.038s] writing top-level names to ../../build/test1/test1.egg-info/top_level.txt
+[4.052s] reading manifest file '../../build/test1/test1.egg-info/SOURCES.txt'
+[4.053s] writing manifest file '../../build/test1/test1.egg-info/SOURCES.txt'
+[4.054s] running build
+[4.054s] running build_py
+[4.064s] copying test1/hardware_interface.py -> /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1
+[4.065s] running install
+[4.066s] running install_lib
+[4.068s] copying /home/rahel/Documents/my_robot/ros_ws/build/test1/build/lib/test1/hardware_interface.py -> /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1
+[4.070s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.071s]   warnings.warn(
+[4.071s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (hardware_interface.py, line 20)
+[4.072s] byte-compiling /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1/hardware_interface.py to hardware_interface.cpython-310.pyc
+[4.072s] running install_data
+[4.073s] running install_egg_info
+[4.089s] removing '/home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1-0.0.0-py3.10.egg-info' (and everything under it)
+[4.091s] Copying ../../build/test1/test1.egg-info to /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages/test1-0.0.0-py3.10.egg-info
+[4.100s] running install_scripts
+[4.197s] Installing listener script to /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/test1
+[4.198s] Installing talker script to /home/rahel/Documents/my_robot/ros_ws/install/test1/lib/test1
+[4.200s] writing list of installed files to '/home/rahel/Documents/my_robot/ros_ws/build/test1/install.log'
+[4.354s] Invoked command in '/home/rahel/Documents/my_robot/ros_ws/src/test1' returned '0': PYTHONPATH=/home/rahel/Documents/my_robot/ros_ws/install/test1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test1 build --build-base /home/rahel/Documents/my_robot/ros_ws/build/test1/build install --prefix /home/rahel/Documents/my_robot/ros_ws/install/test1 --record /home/rahel/Documents/my_robot/ros_ws/build/test1/install.log --single-version-externally-managed
